@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@300&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  /* remove gap around body perimeter */
+  /*font-family:Arial,Helvetica,sans-serif;*/
+  /* max-width: 1264px; */
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "Lato", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.read-more a {
+  font-family: "Lato", "Arial", sans-serif;
+  text-transform: uppercase;
+  color: #397153;
+  text-decoration: none;
+}
+
+h3, a:hover {
+  color: #01a765;
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+}
+
+#header {
+  background-color: #202228;
+  
+}
+
+#header .page-wrapper {
+  padding: 1.2em 0.5em 1.2em 0.5em;
+}
+
+#logo-home {
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 30%;
+
+}
+
+#logo-greenery {
+  font-family: "Lato", "Arial", sans-serif;
+  color: #19c17e;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+#logo-home a {
+  text-decoration: none;
+}
+
+#logo-home a:visited {
+  color: #ffffff;
+}
+
+#logo-greenery a:visited {
+  text-decoration: none;
+}
+
+#main-nav {
+  position: absolute;
+  right: -1em;
+  top: 1.5em;
+}
+
+.button {
+  background-color: #19c17e;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #202228;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+a.button:hover {
+  color: #ffffff;
+}
+
+
+#main-nav li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-size: 1em;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.nav-link:hover {
+  color: #19c17e;
+}
+
+#banner {
+  position: relative;
+  background-image:
+    margin-bottom:2.875em;
+}
+
+.row-2 p {
+  margin-bottom: 2em;
+}
+
+.banner-img img {
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: auto;
+}
+
+.banner-title {
+  margin: 0;
+  font-size: 4.75em;
+  white-space: pre-line;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.banner-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.banner-content .page-wrapper {
+  /* there's some padding all around the content, so add it here */
+  padding: 2em 1em;
+  /* approx. equal to 64px 34px */
+}
+
+.shadow {
+  text-shadow: 0.5px 1.5px 3px #202228;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+}
+
+.row {
+  clear: both;
+}
+
+.col-50 {
+  width: 49%;
+  float: left;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+
+.col-50 li {
+  font-family: "Open Sans", "Arial", sans-serif;
+
+}
+
+.col-50 h2 {
+  text-align: center;
+  color: #397153;
+  text-transform: uppercase;
+}
+
+.new-to-gardening a {
+  color: #397153;
+}
+
+.new-to-gardening a:hover {
+  color: #01a765;
+  text-decoration: none;
+}
+
+.potted-plant {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  padding-left: 2.5%;
+}
+
+.plant-tips {
+  display: inline-block;
+  float: right;
+  width: 70%;
+  padding-right: 5%;
+  padding-left: 2.5%;
+}
+
+.register-now {
+  background-color: #202228;
+  border-radius: 10px;
+  padding: 0.5em;
+  /* margin:40%; */
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans", "Arial", sans-serif;
+  text-align: center;
+}
+
+.learn-more {
+  background-color: #202228;
+  border-radius: 10px;
+  padding: 0.65em;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans", "Arial", sans-serif;
+  text-align: center;
+}
+
+a.register-now:hover {
+  color: #ffffff;
+  background-color: #19c17e;
+}
+
+.register-now-styling {
+  text-align: center;
+}
+
+.new-to-gardening {
+  margin: 1em 1em 2em 1em;
+}
+
+.col-33-1 {
+  width: 33%;
+  display: inline-block;
+  float: left;
+  /* text-align: center; */
+  background-color: #defef1;
+  margin-bottom: 5%;
+}
+
+.col-33-2 {
+  width: 33%;
+  display: inline-block;
+  /* text-align: center; */
+  background-color: #defef1;
+  margin-bottom: 5%;
+}
+
+.col-33-3 {
+  width: 33%;
+  display: inline-block;
+  float: right;
+  /* text-align: center; */
+  background-color: #defef1;
+  margin-bottom: 5%;
+}
+
+/* .find-what{
+  background-color: #defef1;
+} */
+.row-2 {
+  background-color: #defef1;
+  clear: both;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+.row-2 h2 {
+  margin: 1em auto 1em auto;
+}
+
+.row-2 a {
+  text-align: center;
+}
+
+.aside {
+  text-align: center;
+  background-color: #19c17e;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.form {
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.email {
+  width: 25%;
+  padding: 0.5em;
+  font-size: 16px;
+}
+
+#subscribe-now {
+  background-color: #202228;
+  border-radius: 10px;
+  padding: 0.5em;
+  /* margin:40%; */
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+#subscribe-now:hover {
+  color: #01a765;
+}
+
+#footer-nav {
+  background-color: #202228;
+  padding: 1.5em;
+}
+
+#footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#footer-nav li a:hover {
+  text-decoration: none;
+  color: #19c17e;
+}
+
+#footer-nav li {
+  list-style-type: none;
+  padding-right: 1em;
+  /* padding-left: 1em; */
+  font-size: 1em;
+  font-family: "Open Sans", "Arial", sans-serif;
+  text-decoration: none;
+}
+
+#footer-nav li {
+  display: inline-block;
+  vertical-align: top;
+  width: 19.2%;
+  margin-right: 1%;
+  margin-left: 1em;
+  text-transform: uppercase;
+}
+
+#footer-nav li li {
+  float: none;
+  /* don't float the children li */
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.interests {
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+
+#checkboxes {
+  text-align: left;
+}
+
+legend {
+  border: 2px #ffffff;
+}
+
+#footer-nav li ul {
+  margin-top: 1.67em;
+  /* 30px / 18px */
+}
+
+.copyright {
+  width: 100%;
+  display: inline-block;
+  /* float: bottom; */
+  padding: 0.5em;
+  border-top: 2px solid #19c17e;
+  font-size: 12px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: #ffffff;
+  margin-top: 1.5em;
+}
